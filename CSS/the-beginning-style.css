@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 :root {
     --general-font: 'Poppins', sans-serif;
@@ -9,4 +9,105 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--general-font);
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eaeaea;
+}
+
+/*Create a text shadow
+black shadow and light shadow*/
+h2 {
+    font-size: 8em;
+    color: #eaeaea;
+    text-shadow: 6px 6px 12px rgba(0,0,0,.08),
+                 -6px -6px 12px rgb(255, 255, 255, 1);
+}
+
+.box1 {
+    position: absolute;
+    top: 25px;
+    right: 300px;
+    width: 180px;
+    height: 180px;
+    background: #eaeaea;
+    border-radius: 50%;
+    box-shadow: 6px 6px 12px rgba(0,0,0,.08),
+                 -6px -6px 12px rgb(255, 255, 255, 1);
+}
+
+.box2 {
+    position: absolute;
+    bottom: 25px;
+    right: 350px;
+    width: 200px;
+    height: 200px;
+    background: #eaeaea;
+    box-shadow: 6px 6px 12px rgba(0,0,0,.08),
+                 -6px -6px 12px rgb(255, 255, 255, 1);
+}
+
+.box3 {
+    position: absolute;
+    bottom: 25px;
+    left: 150px;
+    width: 150px;
+    height: 150px;
+    transform: rotate(65deg);
+    border-radius: 50px;
+    background: #eaeaea;
+    box-shadow: 6px 6px 12px rgba(0,0,0,.08),
+                 -6px -6px 12px rgb(255, 255, 255, 1);
+}
+
+.box4 {
+    position: absolute;
+    bottom: 120px;
+    left: 340px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #eaeaea;
+    box-shadow: 6px 6px 12px rgba(0,0,0,.08),
+                 -6px -6px 12px rgb(255, 255, 255, 1);
+}
+
+.box5 {
+    position: absolute;
+    bottom: 180px;
+    left: 70px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #eaeaea;
+    box-shadow: 6px 6px 12px rgba(0,0,0,.08),
+                 -6px -6px 12px rgb(255, 255, 255, 1);
+}
+
+.box6 {
+    position: absolute;
+    top: 30px;
+    left: 300px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #eaeaea;
+    box-shadow: 6px 6px 12px rgba(0,0,0,.08),
+                 -6px -6px 12px rgb(255, 255, 255, 1);
+}
+.box6:before {
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+    bottom: 50px;
+    border-radius: 50%;
+    background: #eaeaea;
+    box-shadow: inset 6px 6px 12px rgba(0,0,0,.08),
+                inset -6px -6px 12px rgb(255, 255, 255, 1);
 }
